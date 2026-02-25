@@ -1,0 +1,58 @@
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Migrations (if auto-generated and unwanted)
+alembic/versions/*.pyc
+
+# =========================
+# PostgreSQL
+# =========================
+*.log
+pgdata/
+
+# =========================
+# Next.js / Node
+# =========================
+node_modules/
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# MacOS
+# =========================
+.DS_Store
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Temporary uploads
+# =========================
+uploads/
+reports/
+temp/
